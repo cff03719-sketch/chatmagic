@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "chatmagic",
+  "version": "${version}",
+  "name": "Chat Magic",
+  "description": "Escreva no chat com ! na frente e a IA faz acontecer.",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.chatmagic.ChatMagic"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
